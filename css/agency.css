@@ -292,7 +292,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item {
     margin: 0 0 15px;
-    right: 0;
+    left: 200px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
