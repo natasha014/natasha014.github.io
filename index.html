@@ -162,6 +162,20 @@
                         <p class="text-muted">quote</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -544,15 +558,28 @@ function myFunction() {
 
 
                             </p>
+                             <audio id="audio" src="http://www.sounddogs.com/previews/101/mp3/194990_SOUNDDOGS__be.mp3" autostart="true" ></audio>
+    <!--<a onclick="PlaySound()"> Play</a>  -->
+    <script>
+    function PlaySound() {
 
-                             <button type="button" class="btn btn-primary" onclick="setTimeout(myFunction, 3000);"><i class="fa fa-times"></i> Start Timer</button>
-                            <!--<button onclick="setTimeout(myFunction, 3000);">Start Timer</button> -->
-                            <script>
+        for (var count=0; count<4; count++)
+          {var sound = document.getElementById("audio");
+          sound.play()}
+
+          alert('TIMER DONE!');
+      }
+    </script>
+
+                             <button type="button" class="btn btn-primary" onclick="setTimeout(PlaySound, 2000);"><i class="fa fa-times"></i> Start Timer</button>
+                            <!--<button onclick="setTimeout(myFunction, 2000);">Start Timer</button> -->
+                            <!--<script>
                             function myFunction()
                             {
                                 alert('TIMER DONE!');
+
                             }
-                            </script> 
+                            </script> -->
                         </div>
                     </div>
                 </div>
