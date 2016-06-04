@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 
     
 .bg-light-gray {
-    background-color: #1D1D50;
+    background-color: #771320;
 }
 
 .bg-darkest-gray {
@@ -127,6 +127,20 @@ input[type=submit] {
     box-sizing: border-box;
 }
 
+input[type=button] {
+   color: #fff;
+    background-color:#771320;
+    border-color: #FDFFFF;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 75%;
+    padding: 20px 20px;
+    margin-left: 100px; 
+    margin- right:100px;
+    box-sizing: border-box;
+}
+
 input[type=reset] {
     width: 100%;
     padding: 12px 20px;
@@ -183,7 +197,7 @@ input[type=reset] {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #1D1D50;
+    background-color: #771320;
 }
 
 /* nav bar colour */
@@ -611,14 +625,13 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: inherit;
 }
 
 section#contact .form-group {
