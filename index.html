@@ -39,13 +39,13 @@ small
 
 #container
 {
+  height: 100vh;
 
 }
 
 #header
 {
-  background:   
-#9ECFEF;
+  background: #9ECFEF;
   padding: 10px;
 }
 
@@ -59,25 +59,48 @@ small
 
 #category
 {
+  border-width: 100px;
+  border-height:100px;
   color:#4D4143;
   font-family: trebuchet ms;
   float: left;
   padding: 10px;
+  border-radius: 50%;
+  margin: 20px;
 
 }
 
 #category .about
 {
-  align-self: top;
+
   text-align: center;
   border-style: solid;
   border-color: #9ECFEF;
+  border-radius: 50%;
+   width: 200px;
+ height:  200px;
+ margin: 5px;
+  vertical-align: bottom;
+
+
+}
+
+#category .img
+{
   width: 200px;
+  height:  200px;
+  vertical-align: top;
+  border-radius: 50%;
+  margin: 5px;
+
+
+
+
 }
 
 #category .contact
 {
-  align-self: bottom;
+  vertical-align: bottom;
   align-content: center;
   padding: 10px;
 }
@@ -94,13 +117,13 @@ small
 #content .about
 {
   color: #4D4143;
+  vertical-align: bottom;
   text-align: center; 
   float: right;
   border-style: solid;
   border-color: #9ECFEF;
   font-size: 25px;
   width: 100%;
-
 
 }
 
@@ -112,17 +135,18 @@ small
 <div id="container">
   <div id="header">
   <h1>Natasha Uma Thakur<br>
-  <small>Code and Cake Enthusiast</small>
-    <div id=body>
-     <div id=category>
+  <!--<small>Code and Cake Enthusiast</small> -->
+    <div id="body">
+     <div id="category">
+       <img src="IMG_2155.JPG" class="img">
        <div class="about">
          <h3>About me</h3>
        </div>
      </div>
      <div id=content>
-       <div class="about">
+       <!--<div class="about">
          <h4>More information to come soon!</h4>
-       </div>
+       </div> -->
      </div>
       
     </div>
