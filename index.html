@@ -3,132 +3,132 @@
 <html>
 <head>
 <style>
-img
 
-
-.bottom 
+back-ground
 {
-    position: relative;
-    top: 60px;
-    bottom: 0px;
-    right: 300px;
-    font-size: 18px;
-}
-.top 
-{
-width: 10%:
-height: 10%;
-position: absolute;
-top:150px;
-bottom:100px;
-right:100px;
-left: 300px;
-
+  color: #FFF;
 
 }
+
+h1
+{
+  margin:0;
+  padding:0;
+  font-family: Courier;
+  font-size: 40px;
+
+}
+
+h3
+{
+  font-size: 30px;
+  font-family: Courier;
+
+}
+
+small
+{
+  color:#4D4143;
+  align="top";
+  font-size:20px;
+}
+
+
+
+
+
+#container
+{
+
+}
+
+#header
+{
+  background:   
+#9ECFEF;
+  padding: 10px;
+}
+
+#body
+{
+  padding: 10px;
+  padding-top: 10px;
+  background: #FFF;
+  height: 480px;
+}
+
+#category
+{
+  color:#4D4143;
+  font-family: trebuchet ms;
+  float: left;
+  padding: 10px;
+
+}
+
+#category .about
+{
+  align-self: top;
+  text-align: center;
+  border-style: solid;
+  border-color: #9ECFEF;
+  width: 200px;
+}
+
+#category .contact
+{
+  align-self: bottom;
+  align-content: center;
+  padding: 10px;
+}
+
+#content
+{
+  padding: 10px;
+  float: left;
+  color: #FFF;
+
+
+}
+
+#content .about
+{
+  color: #4D4143;
+  text-align: center; 
+  float: right;
+  border-style: solid;
+  border-color: #9ECFEF;
+  font-size: 25px;
+  width: 100%;
+
+
+}
+
+
 
 
 </style>
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Under Construction</title>
-
-<body style= "background: #FFFF83">
-<script>
-  // This is called with the results from from FB.getLoginStatus().
-  function statusChangeCallback(response) {
-    console.log('statusChangeCallback');
-    console.log(response);
-    // The response object is returned with a status field that lets the
-    // app know the current login status of the person.
-    // Full docs on the response object can be found in the documentation
-    // for FB.getLoginStatus().
-    if (response.status === 'connected') {
-      // Logged into your app and Facebook.
-      testAPI();
-    } else {
-      // The person is not logged into your app or we are unable to tell.
-      document.getElementById('status').innerHTML = 'Please log ' +
-        'into this app.';
-    }
-  }
-
-  // This function is called when someone finishes with the Login
-  // Button.  See the onlogin handler attached to it in the sample
-  // code below.
-  function checkLoginState() {
-    FB.getLoginStatus(function(response) {
-      statusChangeCallback(response);
-    });
-  }
-
-  window.fbAsyncInit = function() {
-  FB.init({
-    appId      : '815734468579468',
-    cookie     : true,  // enable cookies to allow the server to access 
-                        // the session
-    xfbml      : true,  // parse social plugins on this page
-    version    : 'v2.8' // use graph api version 2.8
-  });
-
-  // Now that we've initialized the JavaScript SDK, we call 
-  // FB.getLoginStatus().  This function gets the state of the
-  // person visiting this page and can return one of three states to
-  // the callback you provide.  They can be:
-  //
-  // 1. Logged into your app ('connected')
-  // 2. Logged into Facebook, but not your app ('not_authorized')
-  // 3. Not logged into Facebook and can't tell if they are logged into
-  //    your app or not.
-  //
-  // These three cases are handled in the callback function.
-
-  FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-  });
-
-  };
-
-  // Load the SDK asynchronously
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
-  // Here we run a very simple test of the Graph API after login is
-  // successful.  See statusChangeCallback() for when this call is made.
-  function testAPI() {
-    console.log('Welcome!  Fetching your information.... ');
-    FB.api('/me', function(response) {
-      console.log('Successful login for: ' + response.name);
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
-    });
-  }
-</script>
-
-<!--
-  Below we include the Login Button social plugin. This button uses
-  the JavaScript SDK to present a graphical Login button that triggers
-  the FB.login() function when clicked.
--->
-
-<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-</fb:login-button>
-
-<div id="status">
+<div id="container">
+  <div id="header">
+  <h1>Natasha Uma Thakur<br>
+  <small>Code and Cake Enthusiast</small>
+    <div id=body>
+     <div id=category>
+       <div class="about">
+         <h3>About me</h3>
+       </div>
+     </div>
+     <div id=content>
+       <div class="about">
+         <h4>More information to come soon!</h4>
+       </div>
+     </div>
+      
+    </div>
+  </div>
 </div>
-<br><br><br><br><br><br><br>
-<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-<tr>
-<td align="top">
-<h1 style="margin:0;padding:0;font-family: trebuchet ms;">This Website is Under Construction.
-<br><small style="color: #888;" align="top">Come Back Soon.</small>
-<!--<img src="http://25.media.tumblr.com/4abad145cfeca409f3f76cac7e9393de/tumblr_mq50y4zfz71szhoyto1_400.gif" align="right">
-<img src="https://68.media.tumblr.com/278e8ccbb093da8693487bc8421f4d89/tumblr_nho6biz87b1u1nuzeo1_500.gif" align="top">
+<!--<img src="https://68.media.tumblr.com/278e8ccbb093da8693487bc8421f4d89/tumblr_nho6biz87b1u1nuzeo1_500.gif" align="top">
 <img class=".bottom" src="http://33.media.tumblr.com/4fbb61f48f4c5cfa451a88e14f6579e7/tumblr_mwwh9w2vJf1s6294bo1_400.gif">
 <img class="top" src="https://media.giphy.com/media/wtgpiXTZKOyTS/giphy.gif"> -->
 </h1>
