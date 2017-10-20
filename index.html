@@ -16,6 +16,7 @@ h1
   padding:0;
   font-family: Courier;
   font-size: 40px;
+   color:#4D4143;
 
 }
 
@@ -39,14 +40,17 @@ small
 
 #container
 {
-  height: 100vh;
-
+  height: 100%;
+  width: 100%
+  margin:0;
+  padding: 0;
 }
 
 #header
 {
   background: #9ECFEF;
   padding: 10px;
+  height: 100%;
 }
 
 #body
@@ -59,6 +63,7 @@ small
 
 #category
 {
+  width: 30%
   border-width: 100px;
   border-height:100px;
   color:#4D4143;
@@ -67,7 +72,6 @@ small
   padding: 10px;
   border-radius: 50%;
   margin: 20px;
-
 }
 
 #category .about
@@ -78,9 +82,11 @@ small
   border-color: #9ECFEF;
   border-radius: 50%;
    width: 200px;
- height:  200px;
- margin: 5px;
+   height:  200px;
+   margin: 5px;
   vertical-align: bottom;
+  line-height: 120px;
+
 
 
 }
@@ -94,8 +100,6 @@ small
   margin: 5px;
 
 
-
-
 }
 
 #category .contact
@@ -107,10 +111,12 @@ small
 
 #content
 {
+   margin-top: 70px;
+  display: inline-block;
+  width: 70%;
   padding: 10px;
   float: left;
   color: #FFF;
-
 
 }
 
@@ -124,6 +130,18 @@ small
   border-color: #9ECFEF;
   font-size: 25px;
   width: 100%;
+
+}
+
+#content .img
+{
+
+   float: left;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  vertical-align: top;
+  border-radius: 50%;
 
 }
 
@@ -144,9 +162,9 @@ small
        </div>
      </div>
      <div id=content>
-       <!--<div class="about">
-         <h4>More information to come soon!</h4>
-       </div> -->
+        <a href="https://www.linkedin.com/in/natashaumat/" target="_blank"><img src="linkedin-3-512.png" class="img"></a>
+        <a href="https://twitter.com/dull_rainbow" target="_blank"><img src="twitter.png" class="img"></a>
+        <a href="https://github.com/natasha014?tab=repositories" target="_blank"><img src="download.png" class="img"></a>
      </div>
       
     </div>
