@@ -1,351 +1,272 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<style>
 
-back-ground
-{
-  width: 100%;
-  height: 100%
-  position: fixed;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-body
-{
-  background-color: #F9E8F4; 
-}
+  <title>Natasha Thakur</title>
 
-h1
-{
-  margin:0;
-  padding:0;
-  font-family: Courier;
-  font-size: 60px;
-   color:#4D4143;
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-}
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-h3
-{
-  font-size: 30px;
-  font-family: Courier;
-  color: #FFF
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
 
-}
-
-small
-{
-  color:#4D4143;
-  align="top";
-  font-size:20px;
-}
-
-h4
-{
-  font-size: 20px;
-  font-family: Courier;
-  color: #FFF
-
-
-}
-
-
-
-
-
-#container
-{
-  margin-top: 100px;
-  height: 100%;
-  width: 100%
-  margin:0;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.0);
-}
-
-#header
-{
-  background: #9ECFEF;
-  padding: 10px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.0);
-  text-align: center;
-}
-
-#body
-{
-  padding: 10px;
-  padding-top: 10px;
-  background: #FFF;
-  height: 480px;
-  background-color: rgba(0, 0, 0, 0.0);
-}
-
-#category
-{
-  width: 30%
-  border-width: 100px;
-  border-height:100px;
-  color:#4D4143;
-  font-family: trebuchet ms;
-  float: left;
-  padding: 10px;
-  margin: 20px;
-  background-color: rgba(0, 0, 0, 0.0);
-}
-
-#category .about
-{
-
-  text-align: center;
-  border-style: solid;
-  border-color: #9ECFEF;
-  border-radius: 50%;
-   width: 200px;
-   height:  200px;
-   margin: 5px;
-  vertical-align: bottom;
-  line-height: 120px;
-  background-color: rgba(0, 0, 0, 0.3);
-
-
-
-
-}
-
-#category .projects
-{
-   text-align: center;
-  border-style: solid;
-  border-color: #9ECFEF;
-  border-radius: 50%;
-   width: 200px;
-   height:  200px;
-   margin: 5px;
-  vertical-align: bottom;
-  line-height: 120px;
-  background-color: rgba(0, 0, 0, 0.3);
-  margin-top: 100px;
-
-}
-
-#category .img
-{
-  
-  width: 200px;
-  height:  200px;
-  vertical-align: top;
-  border-radius: 50%;
-  margin: 5px;
-  background-color: rgba(0, 0, 0, 0.9);
-
-
-}
-
-#category .contact
-{
-  vertical-align: bottom;
-  align-content: center;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-#content
-{
-   margin-top: 70px;
-  display: inline-block;
-  width: 70%;
-  padding: 10px;
-  float: left;
-  color: #FFF;
-
-}
-
-#content .about
-{
-  display: flex; 
-  flex-flow: column;
-  position: relative;
-  color: #4D4143;
-  vertical-align: bottom;
-  text-align: left; 
-  float: right;
-  margin-top: 50px;
-  font-size: 20px;
-  width: 100%;
- background-color: rgba(0, 0, 0, 0.3);
-
-}
-
-#content .img
-{
-  display: flex; 
-  flex-flow: column;
-  position: relative;
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  vertical-align: top;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.9);
-
-}
-
-#content .project1
-{
-  display: flex; 
-  flex-flow: column;
-  position: relative;
-  color: #4D4143;
-  vertical-align: bottom;
-  margin-top: 40px;
-  text-align: left; 
-  float: right;
-  font-size: 25px;
-  width: 100%;
- background-color: rgba(0, 0, 0, 0.3);
-
-}
-
-.project1 img
-{
-  height: 150px;
-  width: 170px;
-  float: left;
-
-}
-
-.project1 text
-{
-  float: right;
-  margin-top: 300px;
-}
-
-#content .project2
-{
-  display: flex; 
-  flex-flow: column;
-  position: relative;
-  color: #4D4143;
-  vertical-align: bottom;
-  margin-top: 30px;
-  text-align: left; 
-  float: right;
-  font-size: 25px;
-  width: 100%;
- background-color: rgba(0, 0, 0, 0.3);
-
-}
-
-.project2 img
-{
-  height: 150px;
-  width: 170px;
-  float: left;
-
-}
-
-.project2 text
-{
-  float: right;
-  margin-top: 300px;
-}
-
-
-#content .project3
-{
-  display: flex; 
-  flex-flow: column;
-  position: relative;
-  color: #4D4143;
-  vertical-align: bottom;
-  margin-top: 30px;
-  text-align: left; 
-  float: right;
-  font-size: 25px;
-  width: 100%;
- background-color: rgba(0, 0, 0, 0.3);
-
-}
-
-
-
-
-.project3 img
-{
-  height: 150px;
-  width: 170px;
-  float: left;
-
-}
-
-.project3 text
-{
-  float: right;
-  margin-top: 300px;
-}
-
-
-
-
-</style>
-
-<div id="container">
-  <div id="header">
-  <h1>Natasha Uma Thakur<br>
-    <div id="body">
-     <div id="category">
-       <img src="IMG_2155.JPG" class="img">
-       <div class="about">
-         <h3>About me</h3>
-       </div>
-       <div class="projects"><h3>Projects</h3></div>
-     </div>
-     <div id=content>
-        <a href="https://www.linkedin.com/in/natashaumat/" target="_blank"><img src="linkedin-3-512.png" class="img"></a>
-        <a href="https://twitter.com/dull_rainbow" target="_blank"><img src="twitter.png" class="img"></a>
-        <a href="https://github.com/natasha014?tab=repositories" target="_blank"><img src="download.png" class="img"></a>
-        <div class="about">
-          <h4>Hi! My name is Natasha Thakur and I am currently a junior studying Computer Science at the University of Southern California. In the past I have worked on full-stack web developement projects, implemented and managed databases and used Amazon Web Services. I am looking for an internship/co-op where I can use the skills I develop to solve challenging problems in Software engineering. I will be attending the Grace Hopper Conference 2018, so feel free to reach out to me if you will be there as well! <br> I enjoy exercising, and eating cakes. Not simultaneously, of course.  </h4>
-        </div>
-        <div class="project1">
-          <h4>
-            <img src="Screenshot (45).png">
-            <div id="text">
-            View all my projects on my GitHub!<br>
-            At HackPoly 2018 my team and I created an Alexa skill that helps a user track their moods using node.js, and amazon web services. Our project won the prize for 'Best use of Amazon Web Services'. Check out the javascript code <a href="https://github.com/Tabuus/HackPoly2018Submission" target="_blank">here</a>
-            </div>
-          </h4>
-        </div>
-        <div class="project2">
-          <h4>
-            <img src="original.png">
-            <div id="text">
-            I also attended AthenaHacks 2018 where my team won the third prize. Our project was a chatbot that asked a series of questions and helped determine whether a person is fit to buy a gun or not. This project used node.js along with Microsoft's language API that can do sentiment analysis on inputs. Check out the code for it <a href="https://github.com/natasha014/2ndAmendment" target="_blank">here</a>
-            </div>
-          </h4>
-        </div>
-        <div class="project3">
-          <h4>
-            <img src="Screenshot (105).png">
-            <div id="text">
-           For my Principles of Software Development class we created a web application that allows users to enter a queues as well as create queues and manage them. It used location services as well as the Gmail SMTP for email notifications. It used websockets to handle client-server connections and Object Relational Mapping with AWS for the database. Check out the code for it 
-            <a href="https://github.com/lucashu1/QueueSC.git" target="_blank">here</a>
-            </div>
-          </h4>
-        </div>
-
-     </div>
-      
-    </div>
-  </div>
-</div>
-</h1>
-</td>
-</tr>
-</table>
-</body>
 </head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Natasha Thakur</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Natasha
+          <span class="text-primary">Thakur</span>
+        </h1>
+        <div class="subheading mb-5">Los Angeles ·
+          <a href="mailto:name@email.com">natasha.ws014@gmail.com</a>
+        </div>
+        <p class="lead mb-5">Undergraduate student pursuing a degree in Computer Science at the University of Southern California. Always looking to 
+        learn about new technologies. Currently working as an iOS intern at Bank of America.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/natashaumat/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/natasha014">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/dull_rainbow">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">iOS Intern</h3>
+            <div class="subheading mb-3">Bank of America</div>
+            <p>Working as an iOS intern to help with the continuing development of the Bank of America mobile application</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Course Producer</h3>
+            <div class="subheading mb-3">Viterbi School of Engineering</div>
+            <p>Assisted instructor with Principles of Software Development course by answering questions, leading lab sessions, and grading assignments.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2019 - May 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineering Intern </h3>
+            <div class="subheading mb-3">ImmiConnect</div>
+            <p>Developed Java application to help streamline the process of matching clients with attorneys at a law start-up. Interacted with clients to assess their needs throughout the development process. Multitasked and adapted quickly to new roles when the situation called for it.   </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2018 - August 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">The Divine Realignment</div>
+            <p>Built a website for family business using HTML, CSS, JavaScript, and the Google Calendar API. Allows customers to view information and book available appointment dates.  </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Southern California</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science</div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2017 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">De Anza College</h3>
+            <div class="subheading mb-3">Transfer Program</div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2015 - June 2017</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Languages</div>
+        <ul class="fa-ul mb-0">
+          <li>
+           Algorithms &amp; data structures</li>
+          <li>
+            Java</li>
+          <li>
+            C/C++</li>
+          <li>
+            Full stack web developement</li>
+          <li>
+            Linux Command Line Tools</li>
+          <li>
+            SQL
+          </li>
+          <li>
+            iOS Development
+          </li>  
+        </ul>
+        <p>
+        <p>
+        <div class="subheading mb-3">Tools </div>
+        <ul class="fa-ul mb-0">
+          <li>
+           Version Control</li>
+          <li>
+           AWS</li>
+          <li>
+            Node.js</li>
+          <li>
+            Android SDK</li>
+          <li>
+            Microsoft Azure</li>
+          <li>
+            MySQL
+          </li> 
+          <li>
+            Firebase
+          </li> 
+        </ul> 
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>Apart from being a web developer, I spend most of my time being outdoors. I like jogging, hiking, spending my day at the beach, or exploring new parks.</p>
+        <p class="mb-0">When forced indoors, I enjoy reading. My favourite book is Gone With The Wind. I am always on the look out for new books to read so if you have recommendations feel free connect with me.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+        <ul class="fa-ul mb-0">
+          <div class="subheading mb-3"> Cross Cultural Simulation </div>
+          <li>
+            A web based project developed for the Experiential Learning Center at Univerisity of Southern California's Business School using Java backend.</li>
+            <p>
+          <div class="subheading mb-3"> QueueSC </div>
+          <li>
+            Web application that simplifies the queuing process by allowing users to create and manage queues and join queues remotely. </li>
+            <p>
+         <div class="subheading mb-3"> Taking Aim </div>
+          <li>
+            Developed an interactive chatbot that uses Microsoft Azures sentiment analysis to analyze a series of responses score to determine their mental wellbeing.
+          </li>
+          <p>
+          <div class="subheading mb-3"> Mood Monitor </div>
+          <li>
+           Developed an Alexa skill to help users log their moods over a long period of time</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
 </html>
