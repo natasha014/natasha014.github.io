@@ -302,6 +302,12 @@ a { color: var(--text); }
   gap: 18px;
 }
 
+.card-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
 .card {
   background: var(--panel);
   border-radius: 14px;
