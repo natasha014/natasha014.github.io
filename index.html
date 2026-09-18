@@ -5,272 +5,252 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Natasha Thakur — Backend/infrastructure engineer.">
+  <meta name="author" content="Natasha Thakur">
 
   <title>Natasha Thakur</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Natasha Thakur</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.JPG" alt="">
-      </span>
+  <nav class="site-nav" id="sideNav">
+    <a class="brand" href="#page-top">
+      <img src="profile.JPG" alt="Natasha Thakur">
+      NATASHA THAKUR
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Projects</a>
-        </li>
-      </ul>
-    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation">Menu</button>
   </nav>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Natasha
-          <span class="text-primary">Thakur</span>
-        </h1>
-        <div class="subheading mb-5">Los Angeles ·
-          <a href="mailto:name@email.com">natasha.ws014@gmail.com</a>
+  <section id="about">
+    <div class="hero">
+      <div class="hero-intro">
+        <div>
+          <div class="eyebrow">Hey, I'm Natasha,</div>
+          <h1>A Backend &amp; Infrastructure<br><span class="accent">Engineer</span></h1>
+          <p style="margin-top: 18px;">6+ years building high-throughput distributed systems. Currently a Software Engineer II at Docusign, pursuing an M.S. in Computer Science (AI Track) at Georgia Tech. Looking for a role that offers room to learn and take ownership.</p>
         </div>
-        <p class="lead mb-5">Undergraduate student pursuing a degree in Computer Science at the University of Southern California. Always looking to 
-        learn about new technologies. Currently working as an iOS intern at Bank of America.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/natashaumat/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/natasha014">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://twitter.com/dull_rainbow">
-            <i class="fab fa-twitter"></i>
-          </a>
+        <div class="hero-actions">
+          <a class="btn-dark" href="Natasha_Thakur_Resume.pdf" download>Download résumé →</a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/natashaumat/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a class="icon-btn" href="https://github.com/natasha014" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a class="contact-line" href="mailto:natasha.ws014@gmail.com"><i class="fas fa-envelope"></i> natasha.ws014@gmail.com</a>
         </div>
       </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Course Producer</h3>
-            <div class="subheading mb-3">Viterbi School of Engineering</div>
-            <p>Assisted instructor with Principles of Software Development course on topics such as Java development, web development, multi-threading and networking. Answered questions, assisted with homework, and led lab sessions.</p>
+      <div class="hero-stats">
+        <h2>Built on real<br>impact</h2>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-num">6+</div>
+            <div class="stat-label">Years of experience</div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2019 - Present</span>
+          <div class="stat-card">
+            <div class="stat-num">4</div>
+            <div class="stat-label">Companies</div>
           </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">iOS Intern</h3>
-            <div class="subheading mb-3">Bank of America</div>
-            <p>Worked on the iOS team to develop new features for the mobile app using Objective C. Implemented UI features and helped integrate front-end and back-end. Delivered stories and fixed defects as a part of the Agile sprint cycles.</p>
+          <div class="stat-card">
+            <div class="stat-num">10M+</div>
+            <div class="stat-label">Records migrated with zero downtime</div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2019 - August 2019</span>
+          <div class="stat-card">
+            <div class="stat-num">$3M</div>
+            <div class="stat-label">ARR contributed at Nordstrom</div>
           </div>
         </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Engineering Intern </h3>
-            <div class="subheading mb-3">ImmiConnect</div>
-            <p>Developed Java application to help streamline the process of matching clients with attorneys at a law start-up. Interacted with clients to assess their needs throughout the development process. Multitasked and adapted quickly to new roles when the situation called for it.   </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2018 - August 2018</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">The Divine Realignment</div>
-            <p>Built a website for family business using HTML, CSS, JavaScript, and the Google Calendar API. Allows customers to view information and book available appointment dates.  </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
-        </div>
-
       </div>
+    </div>
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Southern California</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2017 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">De Anza College</h3>
-            <div class="subheading mb-3">Transfer Program</div>
-            <p></p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2015 - June 2017</span>
-          </div>
-        </div>
-
+    <div class="worked-with">
+      <div class="section-label">HAVE WORKED WITH</div>
+      <div class="badge-row">
+        <span class="badge">Docusign</span>
+        <span class="badge">Twitter</span>
+        <span class="badge">Nordstrom</span>
+        <span class="badge">Bank of America</span>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr class="m-0">
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <div class="card-rows">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Languages</div>
-        <ul class="fa-ul mb-0">
-          <li>
-           Algorithms &amp; data structures</li>
-          <li>
-            Java</li>
-          <li>
-            C/C++</li>
-          <li>
-            Full stack web developement</li>
-          <li>
-            Linux Command Line Tools</li>
-          <li>
-            SQL
-          </li>
-          <li>
-            iOS Development
-          </li>  
-        </ul>
-        <p>
-        <p>
-        <div class="subheading mb-3">Tools </div>
-        <ul class="fa-ul mb-0">
-          <li>
-           Version Control</li>
-          <li>
-           AWS</li>
-          <li>
-            Node.js</li>
-          <li>
-            Android SDK</li>
-          <li>
-            Microsoft Azure</li>
-          <li>
-            MySQL
-          </li> 
-          <li>
-            Firebase
-          </li> 
-        </ul> 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a developer, I spend most of my time being outdoors. I like jogging, hiking, spending my day at the beach, or exploring new parks.</p>
-        <p class="mb-0">When forced indoors, I enjoy reading. My favourite book is Gone With The Wind. I am always on the look out for new books to read so if you have recommendations feel free connect with me.</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-        <ul class="fa-ul mb-0">
-          <div class="subheading mb-3"> Cross Cultural Simulation </div>
-          <li>
-            A web based project developed for the Experiential Learning Center at Univerisity of Southern California's Business School using Java backend.</li>
-            <p>
-          <div class="subheading mb-3"> QueueSC </div>
-          <li>
-            Web application that simplifies the queuing process by allowing users to create and manage queues and join queues remotely. </li>
-            <p>
-         <div class="subheading mb-3"> Taking Aim </div>
-          <li>
-            Developed an interactive chatbot that uses Microsoft Azures sentiment analysis to analyze a series of responses score to determine their mental wellbeing.
-          </li>
-          <p>
-          <div class="subheading mb-3"> Mood Monitor </div>
-          <li>
-           Developed an Alexa skill to help users log their moods over a long period of time</li>
-           <p>
-            <div class="subheading mb-3"> RangeFinder </div>
-          <li>
-           Implemented a range finder on an Arduino that tells you how far an object is from the device. Sounds an alarm if the device is within a certain range.</li>
-            <p>
+      <div class="card">
+        <div class="card-index">01 · MARCH 2023 — PRESENT</div>
+        <h3>Software Engineer II</h3>
+        <div class="org">Docusign</div>
+        <ul>
+          <li>Cut average API response times by 60% by migrating services to a gRPC-based framework, including a 10M+ record production data migration with no customer impact.</li>
+          <li>Independently designed, built, and deployed a new trial management service handling ~15,000 records/hour and ~30,000 data-retrieval requests/hour, improving homepage customization for new customers.</li>
+          <li>Drove ~2,000 leads/day of reliable downstream flow into the sales platform by leading integration of the company's core data-collection architecture with a third-party chatbot.</li>
+          <li>Led two major overhauls of the subscription management platform, redesigning the database schema, partitioning, and indexing strategy.</li>
+          <li>Reduced churn by 30% by enabling automated upgrades for trial customers, complete with retry and failure management.</li>
+          <li>Improved code maintainability and reduced cost via an AWS-to-Azure cloud migration.</li>
+          <li>Bolstered self-serve capabilities by integrating 10+ new offerings into the ecommerce platform.</li>
+          <li>Patched 20+ services to meet 7-day security SLAs; built Kafka/Grafana monitoring dashboards across 6+ backend services and configured 50+ PagerDuty alerts.</li>
         </ul>
       </div>
-    </section>
 
-  </div>
+      <div class="card">
+        <div class="card-index">02 · FEBRUARY 2022 — NOVEMBER 2022</div>
+        <h3>Software Engineer II</h3>
+        <div class="org">Twitter</div>
+        <ul>
+          <li>Drove a 30% increase in throughput by implementing support for "edit tweets" in tools used by content moderation agents.</li>
+          <li>Ensured FTC compliance of datasets by implementing appropriate retention and scrubbing policies.</li>
+          <li>Integrated backend support for Live Video/Audio within agent tools.</li>
+        </ul>
+      </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <div class="card">
+        <div class="card-index">03 · MARCH 2020 — FEBRUARY 2022</div>
+        <h3>Software Engineer I/II</h3>
+        <div class="org">Nordstrom</div>
+        <ul>
+          <li>Contributed $3M in ARR by designing and implementing a Node.js microservice to display sponsored ads on the Nordstrom website.</li>
+          <li>Built consumers and producers on Nordstrom's Kafka event-streaming platform for real-time event processing.</li>
+          <li>Deployed and maintained services on Kubernetes; simplified deployments through CI/CD pipelines and containerization.</li>
+          <li>Served as event coordinator for Nordstrom's Women in Tech BRG.</li>
+        </ul>
+      </div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <div class="card">
+        <div class="card-index">04 · JUNE 2019 — AUGUST 2019</div>
+        <h3>Software Engineering Intern</h3>
+        <div class="org">Bank of America</div>
+        <ul>
+          <li>Delivered 20+ stories during the internship while also fixing defects.</li>
+          <li>Contributed to early prototype development of a financial goal-setting and tracking feature within the Bank of America iOS app, now used by over 10 million users.</li>
+          <li>Coordinated with the design team to implement UI features per specifications.</li>
+          <li>Built upon legacy code to integrate new features while ensuring backward compatibility.</li>
+        </ul>
+      </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="degree">M.S. COMPUTER SCIENCE — AI TRACK</div>
+        <h3>Georgia Institute of Technology</h3>
+        <div class="status">In Progress</div>
+      </div>
+      <div class="edu-card">
+        <div class="degree">B.S. COMPUTER SCIENCE</div>
+        <h3>University of Southern California</h3>
+        <div class="status">December 2019</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills &amp; Tools</h2>
+    <div class="skills-groups">
+      <div>
+        <div class="skill-group-label">Languages</div>
+        <div class="badge-row">
+          <span class="badge">Python</span>
+          <span class="badge">Java</span>
+          <span class="badge">C / C++</span>
+          <span class="badge">Scala</span>
+          <span class="badge">PHP</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Backend &amp; Data</div>
+        <div class="badge-row">
+          <span class="badge">Node.js</span>
+          <span class="badge">Kafka</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">NoSQL</span>
+          <span class="badge">gRPC</span>
+          <span class="badge">Microservices</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Cloud &amp; DevOps</div>
+        <div class="badge-row">
+          <span class="badge">AWS</span>
+          <span class="badge">Microsoft Azure</span>
+          <span class="badge">GCP</span>
+          <span class="badge">Kubernetes</span>
+          <span class="badge">Docker</span>
+          <span class="badge">CI/CD</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">AI / ML</div>
+        <div class="badge-row">
+          <span class="badge">NumPy</span>
+          <span class="badge">scikit-learn</span>
+          <span class="badge">Prompt Engineering</span>
+          <span class="badge">Claude Code</span>
+          <span class="badge">MCP Servers</span>
+          <span class="badge">Agentic Workflows</span>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group-label">Platforms &amp; Observability</div>
+        <div class="badge-row">
+          <span class="badge">Datadog</span>
+          <span class="badge">Splunk</span>
+          <span class="badge">Grafana</span>
+          <span class="badge">PagerDuty</span>
+          <span class="badge">Linux</span>
+          <span class="badge">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>AI / ML Projects</h2>
+    <div class="section-sub">Graduate coursework at Georgia Tech.</div>
+    <div class="card-grid">
+      <div class="card">
+        <h3>ARC-AGI Reasoning Agent</h3>
+        <div class="org">CS7637</div>
+        <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: var(--muted);">Built a DSL-based agent with a composable solver registry and signature-driven pruning to solve abstract visual-reasoning puzzles.</p>
+      </div>
+      <div class="card">
+        <h3>Gaussian Mixture Models</h3>
+        <div class="org">CS6601</div>
+        <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: var(--muted);">Implemented vectorized K-means and EM-based GMM from scratch in NumPy for image segmentation/compression.</p>
+      </div>
+      <div class="card">
+        <h3>Hidden Markov Models</h3>
+        <div class="org">CS6601</div>
+        <p style="margin: 4px 0 0; font-size: 14px; line-height: 1.6; color: var(--muted);">Implemented the Viterbi algorithm and Gaussian emission modeling from scratch for gesture-sequence recognition.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© <span id="year"></span> Natasha Thakur · San Francisco, CA</div>
+    <div class="footer-social">
+      <a class="icon-btn" href="https://www.linkedin.com/in/natashaumat/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a class="icon-btn" href="https://github.com/natasha014" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a class="icon-btn" href="mailto:natasha.ws014@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 </body>
 
